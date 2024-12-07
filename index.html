@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primer Sitio Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="danza.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a Mi Página Web</h1>
+        <h2>Sobre mí</h2>
+    </header>
+    <main>
+        <section>
+            <p>Hola, mi nombre es María Angélica Velásquez Ceballos. Soy Estudiante de Tecnología de Análisis y Desarrollo de software en el Sena. Amo servir y ayudar a otros .</p>
+            <img src="danza.jpg" alt="Foto de María" style="width:200px;">
+        </section>
+        <section>
+            <h2>Mis Redes Sociales</h2>
+            <ul>
+                <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                <li><a href="https://www.twitter.com/" target="_blank">Twitter</a></li>
+                <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+            </ul>
+        </section>
+        <section>
+            <h2>Mis Hobbies</h2>
+            <ul>
+                <li>Leer </li>
+                <li>Cursos Virtuales</li>
+                <li>Gospel Dance</li>
+            </ul>
+            <h3>Tareas Prioritarias</h3>
+            <ol>
+                <li>Preparar clases</li>
+                <li>Compras</li>
+                <li>Orar</li>
+            </ol>
+        </section>
+        <section>
+            <h2>Mi Horario Semanal</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Día</th>
+                        <th>Actividad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>Aprender inglés</td>
+                    </tr>
+                    <tr>
+                        <td>Martes</td>
+                        <td>Curso de Programación</td>
+                    </tr>
+                    <tr>
+                        <td>Miércoles</td>
+                        <td>Lectura</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Mensaje:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
